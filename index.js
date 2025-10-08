@@ -8,6 +8,14 @@
       var uns = (leg1**2) + (leg2**2);
       var distance = uns ** (1/2);
       return distance
+    },
+
+    degreesToRadians(degrees) {
+      return degrees * Math.Pi / 180;
+    },
+
+    radiansToDegrees(Radians) {
+      return radians * 180/Math.PI;
     }
 
     },
