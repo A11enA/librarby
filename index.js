@@ -1,5 +1,5 @@
 (function (window, _) {
-  window.myLibraryName = window.myLibraryName || {
+  window.librarby = window.librarby || {
     numz: {
       calculateDistance(A, B) {
         var leg1 = Math.abs(B.x - A.x);
